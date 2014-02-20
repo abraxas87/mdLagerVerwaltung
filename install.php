@@ -5,7 +5,7 @@
  * @package         mdLagerVerwaltung
  * @author          Markus Dittrich
  * @copyright       2014, Markus Dittrich
- * @license         Attribution 4.0 International (CC BY 4.0)
+ * @license         MIT License (MIT)
  * @platform        WebsiteBaker 2.8
  * @requirements    PHP 5.2.2 and higher
  *
