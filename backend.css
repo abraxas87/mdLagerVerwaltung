@@ -1,0 +1,27 @@
+/*Formular*/
+.mdLVBackend input:required:invalid{
+	background-image: url(images/no.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+	box-shadow: 0 0 2px 1px #ff0000;
+}
+
+.mdLVBackend input:focus:required:invalid{
+	background-image: url(images/warning.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+	box-shadow: 0 0 2px 1px #ff0000;
+}
+
+.mdLVBackend input:required:valid{
+	background-image: url(images/yes.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+}
+
+.mdLVBackend input:focus:required:valid{
+	box-shadow: 0 0 2px 1px #00ff00;
+}
